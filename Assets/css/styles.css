@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*estilo aplicado a popup Carrousel*/
+
+#popupC {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+
+
+.content-popup {
+    margin: 0px auto;
+    margin-top: 120px;
+    position: relative;
+    padding: 10px;
+    width: 1100px;
+    min-height: 400px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 2px 5px #666666;
+}
+
+
+.closeC {
+    position: absolute;
+    left: 10px;
+   
+
+}
+
+.conteCarrousel {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10PX;
+}
+
+.itemCarrousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta {
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.itemCarrouselArrows>i:hover {
+    cursor: pointer;
+}
+
+
+
+.itemCarrouselArrows>a>i {
+    color: white;
+}
+
+#imgC1 {
+    margin-left: 38%;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 180px;
+}
+
+#imgC2 {
+    margin-left: 38%;
+    margin-top: 30px;
+    width: 300px;
+    height: 180px;
+}
+
+#textC1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 20%;
+    font-family: 'Tahoma';
+
+}
+
+#textC2 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2%;
+    font-family: 'Tahoma';
+}
+
+#titleC {
+ 
+    text-align: center;
+    color: white;
+}
+
+#cerrarC {
+    width: 20px;
+    height: 20px;
+}
+
